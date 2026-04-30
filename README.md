@@ -16,8 +16,11 @@
 │   ├── motor.c/h        # 步进电机控制、补偿、校正
 │   └── oledchar.c/h     # OLED 字库
 ├── docs/                # 文档与演示资源
-│   └── images/          # 实物照片与原理图
-└── hardware/            # 电路原理图、接线图等（可选）
+│   └── images/          # 实物照片与视频
+└── hardware/            
+│   └── proteus.jpg       # 电路原理图、接线图
+└── simulation/
+    └──单片机创新课设.pdsprj        # 电路原理图、接线图
 ```
 ## 硬件架构
 
