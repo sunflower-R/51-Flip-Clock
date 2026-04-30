@@ -3,24 +3,6 @@
 基于 STC89C52 单片机、DS1302 实时时钟与双步进电机驱动的机械翻页时钟实物。
 分钟与时钟叶片独立翻转显示时间，集成 OLED 屏、矩阵键盘、闹钟功能与霍尔传感器零点校正。
 
-# 仓库文件结构
-51-Flip-Clock/
-├── README.md
-├── LICENSE
-├── project/          # 核心源代码
-│   ├── main.c
-│   ├── ds1302.c, ds1302.h
-│   ├── i2c.c, i2c.h
-│   ├── key.c, key.h
-│   ├── motor.c, motor.h
-│   ├── oledchar.c, oledchar.h
-│   └── keep
-├── docs/
-    └── images/
-        ├── .gitkeep
-        ├── image         # 图片文件（应补充扩展名）
-        └── video         # 视频文件（应补充扩展名）
-
 ## 硬件架构
 
 - 主控：STC89C52（11.0592MHz）
